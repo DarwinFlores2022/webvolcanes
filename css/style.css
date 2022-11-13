@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    box-shadow: 10px 10px 5px 0px rgba(191, 164, 164, 0.75);
+    background-color: rgb(216, 251, 251);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    padding: 3px;
+    width: 25%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu ul li a, .redes ul li a{
+display: block;
+padding: 0 10px;
+text-decoration: none;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: black;
+}
+main{
+    padding-top: 15px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.menu ul li a:hover, .redes ul li a:hover{
+    color: rgb(240, 2, 2);
+   
+}
+
+.contenido{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contenido div img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contenido p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.titulo{
+    border-bottom: 2px double rgb(2, 137, 7);
+    color: rgb(2, 137, 7);
+    margin-bottom: 12px;
+}
+
+.active{
+    color: rgb(240, 2, 2) !important;
+}
+
+.volcan{
+    box-shadow: 10px 10px 24px 22px rgba(45,232,125,0.31);
+    
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.volcan img{
+    border-radius: 10px;
+    width: 100%;
+}
+.volcan iframe{
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+
+.volcanes{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+  
+}
+
+.tiktok{
+    width: 12% !important;
+    display: 100% !important;
+    flex-flow: row wrap !important;
+    gap: 25px;
+  
+}
+
+.volcan blockquote{
+    width: 100% !important;
+}
